@@ -89,7 +89,6 @@ Edit `src/config.json` to customize behavior. Below are all currently available 
 | `baseURL`                  | string  | `"https://rewards.bing.com"` | Microsoft Rewards base URL            |
 | `sessionPath`              | string  | `"sessions"`                 | Directory to store browser sessions   |
 | `headless`                 | boolean | `false`                      | Run browser invisibly                 |
-| `runOnZeroPoints`          | boolean | `false`                      | Run even when no points are available |
 | `clusters`                 | number  | `1`                          | Number of concurrent account clusters |
 | `errorDiagnostics`         | boolean | `false`                      | Enable error diagnostics              |
 | `searchOnBingLocalQueries` | boolean | `false`                      | Use local query list                  |
@@ -105,7 +104,7 @@ Edit `src/config.json` to customize behavior. Below are all currently available 
 | `workers.doDailySet`          | boolean | `true`  | Complete daily set          |
 | `workers.doSpecialPromotions` | boolean | `true`  | Complete special promotions |
 | `workers.doMorePromotions`    | boolean | `true`  | Complete more promotions    |
-| `workers.doPunchCards`        | boolean | `true`  | Complete punchcards (WIP)   |
+| `workers.doPunchCards`        | boolean | `true`  | Complete punchcards         |
 | `workers.doAppPromotions`     | boolean | `true`  | Complete app promotions     |
 | `workers.doDesktopSearch`     | boolean | `true`  | Perform desktop searches    |
 | `workers.doMobileSearch`      | boolean | `true`  | Perform mobile searches     |
